@@ -10,7 +10,7 @@ export default function Home() {
         LISA Org.
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        LISA stands for Libraries and Indexed Software Assets is a vast library or software system delivering client and 
+        LISA stands for Libraries and Indexed Software Assets is a vast library or software system delivering UI components, CSS, themes, templates and many more 
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
