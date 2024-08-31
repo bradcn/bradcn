@@ -1,7 +1,6 @@
 import { ModeToggle } from "@/components/theme-toggle";
 import {
   GithubIcon,
-  TwitterIcon,
   HexagonIcon,
   MoveUpRightIcon,
 } from "lucide-react";
@@ -23,18 +22,22 @@ export const NAVLINKS = [
     href: "/blog",
   },
   {
-    title: "Examples",
+    title: "Libraries",
     href: "#",
   },
   {
-    title: "Guides",
+    title: "Team",
     href: "#",
   },
   {
-    title: "Community",
+    title: "About",
     href: "#",
-    external: true,
   },
+  {
+    title: "Templates",
+    href: "#",
+    external: false,
+  }
 ];
 
 export function Navbar() {
@@ -58,19 +61,10 @@ export function Navbar() {
             <Search />
             <div className="flex">
               <Link
-                href="https://github.com/nisabmohd/NexDocs"
+                href="https://github.com/lisaorg"
                 className={buttonVariants({ variant: "ghost", size: "icon" })}
               >
                 <GithubIcon className="h-[1.1rem] w-[1.1rem]" />
-              </Link>
-              <Link
-                href="#"
-                className={buttonVariants({
-                  variant: "ghost",
-                  size: "icon",
-                })}
-              >
-                <TwitterIcon className="h-[1.1rem] w-[1.1rem]" />
               </Link>
               <ModeToggle />
             </div>
