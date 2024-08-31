@@ -14,7 +14,7 @@ export default async function BlogIndexPage() {
     <div className="w-full flex  flex-col gap-5 sm:min-h-[91vh] min-h-[88vh] md:pt-6 pt-2">
       <div className="md:mb-14 mb-8 flex flex-col gap-2 ">
         <h1 className="text-3xl font-extrabold">
-          The latest blogs of this product
+          Blogs
         </h1>
         <p className="text-muted-foreground">
           All the latest blogs and news, straight from the team.
