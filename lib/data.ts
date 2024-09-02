@@ -17,12 +17,6 @@ export const DATA = {
             "MDX",
             "Radix UI",
           ],
-          links: [
-            {
-              type: "Website",
-              href: "https://chatcollect.com",
-            },
-          ],
           image: "",
           video: "https://lisaorg.github.io/lisamedia/tutorial.mp4.mp4",
         },
