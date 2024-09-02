@@ -23,8 +23,8 @@ export const DATA = {
               href: "https://chatcollect.com",
             },
           ],
-          image: "https://lisaorg.github.io/lisamedia/schemadoc.jpg",
-          video: "",
+          image: "",
+          video: "https://lisaorg.github.io/lisamedia/tutorial.mp4.mp4",
         },
         {
           title: "Magic UI",
