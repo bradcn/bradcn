@@ -23,7 +23,7 @@ export const DATA = {
               href: "https://chatcollect.com",
             },
           ],
-          image: "https://schemadoc.vercel.app/public/schemadoc.jpg",
+          image: "https://lisaorg.github.io/lisamedia/schemadoc.jpg",
           video: "",
         },
         {
