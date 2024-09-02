@@ -23,9 +23,8 @@ export const DATA = {
               href: "https://chatcollect.com",
             },
           ],
-          image: "",
-          video:
-            "https://schemadoc.vercel.app/public/Screenrecorder-2024-09-02-15-33-52-456.mp4",
+          image: "https://schemadoc.vercel.app/public/schemadoc.jpg",
+          video: "",
         },
         {
           title: "Magic UI",
