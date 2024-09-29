@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 
-export function Footer() => {
+export function Footer() = {
 
     const footerNavs = [
         {
