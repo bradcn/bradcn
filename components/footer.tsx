@@ -9,7 +9,7 @@ export function Footer() {
             label: "Projects",
             items: [
                 {
-                    href: 'javascript:void()',
+                    href: '#',
                     name: 'Schemadoc'
                 },
             ],
@@ -26,19 +26,19 @@ export function Footer() {
                     name: 'Team'
                 },
                 {
-                    href: 'javascript:void()',
+                    href: '#',
                     name: 'Resources'
                 },
                 {
-                    href: 'javascript:void()',
+                    href: '#',
                     name: 'Contributing'
                 },
                 {
-                    href: 'javascript.void()',
+                    href: '#',
                     name: 'Release Process'
                 },
                 {
-                    href: 'javascript.void()',
+                    href: '#',
                     name: 'FAQ'
                 },
             ]
@@ -47,15 +47,15 @@ export function Footer() {
             label: "Legal",
             items: [
                 {
-                    href: 'javascript:void()',
+                    href: '#',
                     name: 'Terms'
                 },
                 {
-                    href: 'javascript:void()',
+                    href: '#',
                     name: 'Policy'
                 },
                 {
-                    href: 'javascript:void()',
+                    href: '#',
                     name: 'Contributor Convenant'
                 },
                 {
