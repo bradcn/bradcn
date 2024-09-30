@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex sm:min-h-[91vh] min-h-[88vh] flex-col items-center justify-center text-center px-2 py-8">
+    <div className="flex sm:min-h-[61vh] min-h-[68vh] flex-col items-center justify-center text-center px-2 py-8">
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl">
         LISA Org.
       </h1>
