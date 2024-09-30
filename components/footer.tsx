@@ -18,11 +18,11 @@ export function Footer() {
             label: "Community",
             items: [
                 {
-                    href: 'javascript:void()',
+                    href: '/community/support',
                     name: 'Support'
                 },
                 {
-                    href: 'javascript:void()',
+                    href: '/community/team',
                     name: 'Team'
                 },
                 {
@@ -59,24 +59,24 @@ export function Footer() {
                     name: 'Contributor Convenant'
                 },
                 {
-                    href: 'javascript:void()',
+                    href: '/legal/code-of-conduct',
                     name: 'Code of Conduct'
                 },
                 {
-                    href: 'javascript.void()',
+                    href: '/legal/license',
                     name: 'License'
                 },
             ]
         },
         {
-            label: "Inclusive",
+            label: "Information",
             items: [
                 {
-                    href: 'javascript:void()',
+                    href: '/about',
                     name: 'About'
                 },
                 {
-                    href: 'javascript:void()',
+                    href: '/blog',
                     name: 'Blog'
                 },
             ],
