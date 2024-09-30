@@ -14,6 +14,10 @@ import { SheetClose } from "@/components/ui/sheet";
 
 export const NAVLINKS = [
   {
+    title: "Home",
+    href: "/",
+  },
+  {
     title: "Documentation",
     href: `/docs${page_routes[0].href}`,
   },
@@ -22,20 +26,20 @@ export const NAVLINKS = [
     href: "/blog",
   },
   {
-    title: "Libraries",
-    href: "#",
+    title: "Projects",
+    href: "/projects",
   },
   {
-    title: "Team",
-    href: "#",
+    title: "Community",
+    href: "/community",
   },
   {
     title: "About",
     href: "#",
   },
   {
-    title: "Templates",
-    href: "/templates",
+    title: "Legal",
+    href: "/legal",
     external: false,
   }
 ];
@@ -78,8 +82,7 @@ export function Navbar() {
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
-      <HexagonIcon className="w-7 h-7 text-muted-foreground fill-current" />
-      <h2 className="text-md font-bold">LISA</h2>
+      <h2 className="text-md font-bold">Bradcn</h2>
     </Link>
   );
 }
