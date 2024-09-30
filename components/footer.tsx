@@ -6,74 +6,20 @@ export function Footer() {
 
     const footerNavs = [
         {
-            label: "Resources",
+            label: "Projects",
             items: [
                 {
                     href: 'javascript:void()',
-                    name: 'contact'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Support'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Documentation'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Pricing'
+                    name: 'Schemadoc'
                 },
             ],
         },
         {
-            label: "About",
+            label: "Community",
             items: [
                 {
                     href: 'javascript:void()',
-                    name: 'Terms'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'License'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Privacy'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'About US'
-                },
-            ]
-        },
-        {
-            label: "Explore",
-            items: [
-                {
-                    href: 'javascript:void()',
-                    name: 'Showcase'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Roadmap'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Languages'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Blog'
-                },
-            ]
-        },
-        {
-            label: "Company",
-            items: [
-                {
-                    href: 'javascript:void()',
-                    name: 'Partners'
+                    name: 'Support'
                 },
                 {
                     href: 'javascript:void()',
@@ -81,7 +27,57 @@ export function Footer() {
                 },
                 {
                     href: 'javascript:void()',
-                    name: 'Careers'
+                    name: 'Resources'
+                },
+                {
+                    href: 'javascript:void()',
+                    name: 'Contributing'
+                },
+                {
+                    href: 'javascript.void()',
+                    name: 'Release Process'
+                },
+                {
+                    href: 'javascript.void()',
+                    name: 'FAQ'
+                },
+            ]
+        },
+        {
+            label: "Legal",
+            items: [
+                {
+                    href: 'javascript:void()',
+                    name: 'Terms'
+                },
+                {
+                    href: 'javascript:void()',
+                    name: 'Policy'
+                },
+                {
+                    href: 'javascript:void()',
+                    name: 'Contributor Convenant'
+                },
+                {
+                    href: 'javascript:void()',
+                    name: 'Code of Conduct'
+                },
+                {
+                    href: 'javascript.void()',
+                    name: 'License'
+                },
+            ]
+        },
+        {
+            label: "Information",
+            items: [
+                {
+                    href: 'javascript:void()',
+                    name: 'About'
+                },
+                {
+                    href: 'javascript:void()',
+                    name: 'Blog'
                 },
             ],
         }
