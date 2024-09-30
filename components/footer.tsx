@@ -69,7 +69,7 @@ export function Footer() {
             ]
         },
         {
-            label: "Information",
+            label: "Inclusive",
             items: [
                 {
                     href: 'javascript:void()',
