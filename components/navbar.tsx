@@ -40,7 +40,6 @@ export const NAVLINKS = [
   {
     title: "Legal",
     href: "/legal",
-    external: false,
   }
 ];
 
