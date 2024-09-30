@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 
@@ -127,13 +128,13 @@ export function Footer() {
                                 {
                                     item.items.map(((el, idx) => (
                                         <li key={idx}>
-                                            <a
+                                            <Link
                                                 href={el.href}
                                                 className="duration-150 hover:text-gray-400"
 
                                             >
                                                 {el.name}
-                                            </a>
+                                            </Link>
                                         </li>
                                     )))
                                 }
