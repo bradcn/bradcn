@@ -11,6 +11,9 @@ import { Button } from "./ui/button";
 import { AlignLeftIcon } from "lucide-react";
 import { DialogTitle } from "./ui/dialog";
 import DocsMenu from "./docs-menu";
+import LegalMenu from "./LegalMenu";
+import CommunityMenu from "./CommunityMenu";
+import VersionManager from "./version-select";
 
 export function Leftbar() {
   return (
@@ -26,15 +29,18 @@ export function SheetLeftbar() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="ghost" size="icon" className="lg:hidden flex">
+        <Button variant="ghost" size="icon" className="md:hidden flex">
           <AlignLeftIcon />
         </Button>
       </SheetTrigger>
-      <SheetContent className="flex flex-col gap-4 px-0" side="left">
+      <SheetContent className="flex flex-col gap-2 px-0" side="left">
         <DialogTitle className="sr-only">Menu</DialogTitle>
         <SheetHeader>
-          <SheetClose className="px-5" asChild>
-            <Logo />
+          <SheetClose className="px-5 flex items-center gap-2" asChild>
+            <div className="flex !items-start flex-col gap-3">
+              <Logo />
+              <VersionManager />
+            </div>
           </SheetClose>
         </SheetHeader>
         <ScrollArea className="flex flex-col gap-4">
@@ -44,7 +50,11 @@ export function SheetLeftbar() {
           <div className="mx-2 px-5">
             <DocsMenu isSheet />
           </div>
-          <div className="p-6 pb-4 flex gap-2.5">
+          <div className="mx-2 px-5">
+            <CommunityMenu isSheet />
+          </div>
+          <div className="mx-2 px-5">
+            <LegalMenu isSheet />
           </div>
         </ScrollArea>
       </SheetContent>
