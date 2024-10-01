@@ -13,7 +13,6 @@ import { DialogTitle } from "./ui/dialog";
 import DocsMenu from "./docs-menu";
 import LegalMenu from "./LegalMenu";
 import CommunityMenu from "./CommunityMenu";
-import VersionManager from "./version-select";
 
 export function Leftbar() {
   return (
@@ -39,7 +38,6 @@ export function SheetLeftbar() {
           <SheetClose className="px-5 flex items-center gap-2" asChild>
             <div className="flex !items-start flex-col gap-3">
               <Logo />
-              <VersionManager />
             </div>
           </SheetClose>
         </SheetHeader>
