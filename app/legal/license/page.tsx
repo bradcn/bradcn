@@ -7,7 +7,7 @@ const LicensePage = () => {
         <h1 className="text-3xl font-bold mb-4 text-center">MIT License</h1>
         
         <p className="mb-2">
-          <span className="font-semibold">&copy; 2024</span> Schemadoc, originally developed by amyssnippet under name of LISA Org.
+          <span className="font-semibold">&copy; 2024</span> Schemadoc, originally developed by amyssnippet under name of Bradcn Inc.
         </p>
         
         <p className="mb-4">
