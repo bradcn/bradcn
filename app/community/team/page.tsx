@@ -3,9 +3,9 @@ import ProfileCard from "@/components/profilecard";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Team | Community | Schemadoc",
+  title: "Team | Community | Bradcn",
   metadataBase: new URL("https://schemadoc.vercel.app/community/team"),
-  description: "Team page in Community section of Schemadoc documentation",
+  description: "Team page in Community section of Bradcn documentation",
 };
 
 export default function TeamPage() {
@@ -13,10 +13,10 @@ export default function TeamPage() {
     <main className="max-w-4xl mx-auto my-6">
       <h1 className="text-4xl font-bold my-4 pt-10">Team</h1>
       <p className="text-lg my-4 pt-6">
-        The Schemadoc team works on the core functionality, as well as the Schemadoc documentation website.
+        The Bradcn team works on the core functionality, as well as our other projects.
       </p>
       <br />
-      <p className="text-lg my-4">Current members of the Schemadoc team are listed below.</p>
+      <p className="text-lg my-4">Current members of the Bradcn team are listed below.</p>
       
       {/* Responsive Wrapper for Profile Cards */}
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
