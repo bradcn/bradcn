@@ -26,7 +26,7 @@ export default function TeamPage() {
             <ProfileCard
               name="Amol Yadav"
               title="Admin"
-              imgUrl="https://amyssnippet.vercel.app/PSX_20240219_195257.jpg"
+              imgUrl="https://avatars.githubusercontent.com/u/135108994?v=4"
               githubUrl="https://github.com/amyssnippet"
               portfolioUrl="https://amolyadav.site/"
               devtoUrl="https://dev.to/amyssnippet"
@@ -42,7 +42,7 @@ export default function TeamPage() {
               title="Contributor"
               imgUrl="https://dineshverma.vercel.app/dinesh1.jpeg"
               githubUrl="https://github.com/DineshVerma-dev"
-              portfolioUrl="https://dineshverma.vercel.app /"
+              portfolioUrl="https://dineshverma.vercel.app/"
               devtoUrl="https://dev.to/dinesh_verma"
             />
           </div>
