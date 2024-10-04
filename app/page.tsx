@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex sm:min-h-auto min-h-auto flex-col items-center justify-center text-center px-2 py-8">
+    <div className="flex sm:min-h-auto my-20 min-h-auto flex-col items-center justify-center text-center px-2 py-8">
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl">
         Bradcn Inc.
       </h1>
