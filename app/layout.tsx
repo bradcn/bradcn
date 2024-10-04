@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "LISA Org",
+  title: "Bradcn Inc.",
   metadataBase: new URL("https://bradcn.site/"),
   description:
     "Bradcn is a vast library or software system delivering UI components, CSS, themes, templates and many more.",

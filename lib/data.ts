@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon, Globe } from "lucide-react";
 export const DATA = {
  template: [
         {
-          title: "Schema doc",
+          title: "hello",
           href: "https://schemadoc.vercel.app",
           dates: "Aug 2024 - Sep 2024",
           active: true,

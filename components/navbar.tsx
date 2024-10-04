@@ -65,7 +65,7 @@ export function Navbar() {
             <Search />
             <div className="flex">
               <Link
-                href="https://github.com/lisaorg"
+                href="https://github.com/bradcn"
                 className={buttonVariants({ variant: "ghost", size: "icon" })}
               >
                 <GithubIcon className="h-[1.1rem] w-[1.1rem]" />

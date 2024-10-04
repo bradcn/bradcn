@@ -26,19 +26,19 @@ export function Footer() {
                     name: 'Team'
                 },
                 {
-                    href: '#',
+                    href: '/community/resources',
                     name: 'Resources'
                 },
                 {
-                    href: '#',
+                    href: '/community/contributing',
                     name: 'Contributing'
                 },
                 {
-                    href: '#',
+                    href: '/community/release-process',
                     name: 'Release Process'
                 },
                 {
-                    href: '#',
+                    href: '/community/faq',
                     name: 'FAQ'
                 },
             ]
@@ -47,15 +47,15 @@ export function Footer() {
             label: "Legal",
             items: [
                 {
-                    href: '#',
+                    href: '/legal/terms',
                     name: 'Terms'
                 },
                 {
-                    href: '#',
+                    href: '/legal/policy',
                     name: 'Policy'
                 },
                 {
-                    href: '#',
+                    href: 'https://www.contributor-covenant.org/',
                     name: 'Contributor Convenant'
                 },
                 {
