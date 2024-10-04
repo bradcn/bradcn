@@ -8,9 +8,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "LISA Org",
-  metadataBase: new URL("https://lisaorg.vercel.app/"),
+  metadataBase: new URL("https://bradcn.site/"),
   description:
-    "LISA stands for Libraries and Indexed Software Assets is a vast library or software system delivering UI components, CSS, themes, templates and many more.",
+    "Bradcn is a vast library or software system delivering UI components, CSS, themes, templates and many more.",
 };
 
 export default function RootLayout({

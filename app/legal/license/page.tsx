@@ -2,7 +2,7 @@ import React from 'react';
 
 const LicensePage = () => {
   return (
-    <div className="py-8 flex items-center justify-center min-h-screen">
+    <div className="py-8 flex items-center justify-center sm:min-h-auto min-h-auto">
       <div className="w-full max-w-3xl">
         <h1 className="text-3xl font-bold mb-4 text-center">MIT License</h1>
         

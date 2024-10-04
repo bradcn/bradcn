@@ -1,5 +1,6 @@
 {
     "redirects": [
-      { "source": "/legal", "destination": "/legal/license", "permanent": true }
+      { "source": "/legal", "destination": "/legal/license", "permanent": true },
+      { "source": "/community/community", "destination": "/community", "permanent": true }
     ]
   }
