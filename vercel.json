@@ -1,0 +1,5 @@
+{
+    "redirects": [
+      { "source": "/legal", "destination": "/legal/license", "permanent": true }
+    ]
+  }

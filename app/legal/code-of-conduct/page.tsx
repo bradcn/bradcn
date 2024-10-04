@@ -62,7 +62,7 @@ const CodeOfConduct = () => {
       <section className="mb-8">
         <h2 className="text-3xl font-semibold mb-4">Enforcement</h2>
         <p className="text-lg leading-relaxed">
-          Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at <Link href="mailto:support.schemadoc@gmail.com" className="text-blue-500 hover:underline">support.schemadoc@gmail.com</Link>. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+          Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at <Link href="mailto:support@bradcn.site" className="text-blue-500 hover:underline">support@bradcn.site</Link>. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
         </p>
         <p className="text-lg leading-relaxed">
           Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project&rsquo;s leadership.

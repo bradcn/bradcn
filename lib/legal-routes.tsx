@@ -10,7 +10,7 @@ const legalRoutes: EachRoute[] = [
     title: "License",
     href: "/legal/license",
   },
-  { title: "Code of Conduct", href: "/legal/codeofconduct" },
+  { title: "Code of Conduct", href: "/legal/code-of-conduct" },
 ];
 
 type Page = { title: string; href: string };
