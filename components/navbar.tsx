@@ -11,6 +11,8 @@ import Anchor from "./anchor";
 import { SheetLeftbar } from "./leftbar";
 import { page_routes } from "@/lib/routes-config";
 import { SheetClose } from "@/components/ui/sheet";
+import logo from "@/public/logo.png";
+import Image from "next/image";
 
 export const NAVLINKS = [
   {
@@ -82,6 +84,7 @@ export function Navbar() {
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
+      <Image src={logo} alt="logo" className="w-6 h-6 rounded-full" />
       <h2 className="text-md font-bold">Bradcn</h2>
     </Link>
   );

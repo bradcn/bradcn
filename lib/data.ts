@@ -4,8 +4,8 @@ import { HomeIcon, NotebookIcon, Globe } from "lucide-react";
 export const DATA = {
  template: [
         {
-          title: "hello",
-          href: "https://schemadoc.vercel.app",
+          title: "Schemadoc",
+          href: "https://schemadoc.bradcn.site",
           dates: "Aug 2024 - Sep 2024",
           active: true,
           description: "Schema doc let users create their own documentation website with ease, letting users focus on their content insted of UI",
@@ -18,13 +18,13 @@ export const DATA = {
             "Radix UI",
           ],
           image: "",
-          video: "https://lisaorg.github.io/lisamedia/tutorial.mp4.mp4",
+          video: "https://bradcn.github.io/lisamedia/tutorial.mp4.mp4",
         },
         {
-          title: "Magic UI",
-          href: "https://magicui.design",
+          title: "Bradcn UI",
+          href: "https://ui.bradcn.site/",
           dates: "June 2023 - Present",
-          active: true,
+          active: false,
           description:
             "Designed, developed and sold animated UI components for developers.",
           technologies: [
