@@ -2,13 +2,13 @@ import { buttonVariants } from "@/components/ui/button";
 import { page_routes } from "@/lib/routes-config";
 import { MoveUpRightIcon, TerminalIcon } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
+import 1728207150039 from "@/public/1728207150039.png";
 
 export default function Home() {
   return (
     <div className="flex sm:min-h-auto min-h-auto flex-col items-center justify-center text-center px-2 py-12">
-      <h1 className="text-3xl font-bold mb-4 sm:text-7xl">
-        Bradcn Inc.
-      </h1>
+      <Image src={1728207150039} alt="image.bin" className="mb-4" />
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
         Bradcn Inc. is a vast library or software system delivering UI components, CSS, themes, templates and many more 
       </p>
