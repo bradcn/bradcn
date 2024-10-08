@@ -1,6 +1,6 @@
 import { buttonVariants } from "@/components/ui/button";
 import { page_routes } from "@/lib/routes-config";
-import { MoveUpRightIcon, TerminalIcon } from "lucide-react";
+import { MoveUpRightIcon, TerminalSquare } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import image11 from "@/public/image11.png";
@@ -30,8 +30,9 @@ export default function Home() {
           Blogs
         </Link>
       </div>
-      <span className="flex flex-row items-center gap-2 text-zinc-400 text-md mt-7 mb-12 max-[800px]:mb-12">
-        <TerminalIcon className="w-4 h-4 mr-1" /> npm i bradcn@latest
+      <span className="flex flex-row items-start sm:gap-2 gap-0.5 text-muted-foreground text-md mt-7 mb-12 max-[800px]:mb-12 font-code text-base font-medium">
+        <TerminalSquare className="w-5 h-5 mr-1 mt-0.5" />
+        {"npx bradcn@latest"}
       </span>
       <h1 className="text-3xl font-bold mt-4 mb-4 sm:text-5xl">
         What's in Bradcn?
