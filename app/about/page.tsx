@@ -13,7 +13,7 @@ const LicensePage = () => {
         <div className="mb-6">
           <h2 className="text-2xl font-semibold mb-2">Our Mission</h2>
           <p>
-            Bradcn was built with a single goal in mind: to offer free and paid software, JavaScript libraries, and tools that cater to a diverse range of developers, creators, and businesses. Whether you're an entrepreneur looking for solutions to streamline your workflow or a developer searching for robust libraries to enhance your projects, Bradcn is here to support your journey.
+            Bradcn was built with a single goal in mind: to offer free and paid software, JavaScript libraries, and tools that cater to a diverse range of developers, creators, and businesses. Whether you&#39;re an entrepreneur looking for solutions to streamline your workflow or a developer searching for robust libraries to enhance your projects, Bradcn is here to support your journey.
           </p>
         </div>
 
@@ -43,7 +43,7 @@ const LicensePage = () => {
         </div>
 
         <p className="mt-6">
-          Thank you for visiting <span className="font-semibold">Bradcn</span>. Together, let's build the future of technology!
+          Thank you for visiting <span className="font-semibold">Bradcn</span>. Together, let&#39;s build the future of technology!
         </p>
       </div>
     </div>
