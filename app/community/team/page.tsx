@@ -30,7 +30,6 @@ export default function TeamPage() {
               githubUrl="https://github.com/amyssnippet"
               portfolioUrl="https://amolyadav.site/"
               devtoUrl="https://dev.to/amyssnippet"
-              mailId="contact@amolyadav.site"
             />
           </div>
         </div>
