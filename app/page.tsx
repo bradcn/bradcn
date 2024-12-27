@@ -35,7 +35,7 @@ export default function Home() {
         {"npx bradcn@latest"}
       </span>
       <h1 className="text-3xl font-bold mt-4 mb-4 sm:text-5xl">
-        What's in Bradcn?
+        What&#39;s in Bradcn?
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
         Everything you need to build great projects on the Web
