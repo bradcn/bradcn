@@ -37,7 +37,7 @@ export const NAVLINKS = [
   },
   {
     title: "About",
-    href: "#",
+    href: "/about",
   },
   {
     title: "Legal",
