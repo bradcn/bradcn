@@ -116,13 +116,13 @@ export function Footer() {
                 <div className="mt-10 py-10 border-t border-gray-700 items-center justify-between sm:flex">
                     <p className="">© 2024 Bradcn Inc. All rights reserved.</p>
                     <div className="flex items-center gap-x-6 text-gray-400 mt-6">
-                        <a href="#">
+                        <a href="/blog">
                             <Rss className="w-6 h-6 hover:text-gray-500 duration-150" />
                         </a>
                         <a href="#">
                             <Mail className="w-6 h-6 hover:text-gray-500 duration-15" />
                         </a>
-                        <a href="#">
+                        <a href="https://github.com/bradcn">
                             <Github className="w-6 h-6 hover:text-gray-500 duration-15" />
                         </a>
                         <a href="#">
